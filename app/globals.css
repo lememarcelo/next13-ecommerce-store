@@ -78,3 +78,32 @@ html, body, :root{
     @apply bg-background text-foreground;
   }
 }
+
+/* Estilize a célula de cor */
+.color-cell {
+  background-color: #f2f2f2; /* Cor de fundo da célula de cor */
+  font-weight: bolder; /* Texto em negrito para destacar */
+  text-align: center; /* Centralize o texto na célula */
+  padding: 10px; /* Espaçamento interno para melhor aparência */
+}
+
+/* Estilize as células de quantidade */
+td {
+  text-align: center; /* Centralize o texto nas células de quantidade */
+}
+
+/* Adicione uma linha de separação horizontal entre as linhas */
+tr {
+  text-align: center; /* Centralize o texto nas células de quantidade */
+  border-bottom: 1px solid #ccc; /* Linha de separação cinza */
+}
+
+/* Estilize o campo de entrada de quantidade */
+input-grade {
+  width: 30px; /* Largura do campo de entrada */
+  text-align: center; /* Centralize o texto no campo de entrada */
+  border: 1px solid #ccc; /* Borda cinza no campo de entrada */
+  border-radius: 3px; /* Borda arredondada */
+  margin: 0 5px; /* Margem à esquerda e à direita para melhor aparência */
+  font-size: 14px; /* Tamanho da fonte do botão */
+}

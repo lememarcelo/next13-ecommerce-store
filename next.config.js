@@ -3,9 +3,11 @@ const nextConfig = {
   images: {
     domains: [
       "tailwindui.com",
-      "res.cloudinary.com"
-    ]
-  }
-}
+      "res.cloudinary.com",
+      "tecdn.b-cdn.net",
+      "localhost",
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
